@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn-search {
+    top: 2px;
+    width: 35px;
+    height: 35px;
+    left: -1px;
+    color: black;
+}
+
+.btn-outline-light {
+    border: 2px solid silver;
+    color: silver;
+}
+
+.show-card {
+    margin-top: 50px;
+}
+
+.container form textarea {
+    height: 150px;
+}
+
+.container form .label-required::after {
+    content: '(*)';
+    margin-left: 4px;
+    color: red;
+}
